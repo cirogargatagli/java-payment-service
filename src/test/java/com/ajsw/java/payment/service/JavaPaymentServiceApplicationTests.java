@@ -1,10 +1,10 @@
-package com.ajsw.javapaymentservice;
+package com.ajsw.java.payment.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaUsersServiceApplicationTests {
+class JavaPaymentServiceApplicationTests {
 
     @Test
     void contextLoads() {
