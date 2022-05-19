@@ -48,6 +48,7 @@ public class PaymentService {
         try {
             Payment payment = client.create(createRequest);
             System.out.println(payment);
+            return new Response();
         } catch (MPApiException ex) {
             System.out.printf(
                     "MercadoPago Error. Status: %s, Content: %s%n",
